@@ -1,0 +1,34 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Test and runtime output
+*.log
+*.out
+*.report
+*.jsonl
+
+# Local packaging artifacts
+*.tar
+*.tar.gz
+*.zip
+
+# Machine-specific state
+.env
+.env.*
+*.local
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+
+# Local agent state
+.local/
+state/
+backups/
